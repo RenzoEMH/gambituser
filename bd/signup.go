@@ -3,6 +3,7 @@ package bd
 import (
 	"fmt"
 
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/renzoemh/gambituser/models"
 	"github.com/renzoemh/gambituser/tools"
 )
